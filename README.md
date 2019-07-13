@@ -22,7 +22,7 @@
   - [大牛博客](#%E5%A4%A7%E7%89%9B%E5%8D%9A%E5%AE%A2)
   - [GitHub篇](#github%E7%AF%87)
 - [工具篇](#%E5%B7%A5%E5%85%B7%E7%AF%87)
-  - [平台工具](#%E5%B9%B3%E5%8F%B0%E5%B7%A5%E5%85%B7)
+  - [平台工具&框架](#%E5%B9%B3%E5%8F%B0%E5%B7%A5%E5%85%B7%E6%A1%86%E6%9E%B6)
   - [常用工具](#%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7)
   - [第三方服务](#%E7%AC%AC%E4%B8%89%E6%96%B9%E6%9C%8D%E5%8A%A1)
   - [爬虫相关(好玩的工具)](#%E7%88%AC%E8%99%AB%E7%9B%B8%E5%85%B3%E5%A5%BD%E7%8E%A9%E7%9A%84%E5%B7%A5%E5%85%B7)
@@ -92,7 +92,7 @@
 - 编程珠玑
 - The Little Schemer
 - Simply Scheme_Introducing_Computer_Science
-- C++ Prime
+- C++ Primer
 - Effective C++
 - TCP/IP详解
 - Unix 编程艺术
@@ -217,7 +217,7 @@
 - [开发者工具箱， free-for-dev](https://github.com/ripienaar/free-for-dev)
 - [GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
 - [Git风格指南](https://github.com/agis-/git-style-guide)
-- [Bast-App](https://github.com/hzlzh/Best-App)
+- [Best-App](https://github.com/hzlzh/Best-App)
 
 ## 工具篇
 
@@ -273,9 +273,10 @@
 - [fir.im](https://fir.im/)免费的移动App内测托管平台
 - wireshark：知名的网络数据包分析工具
 - PowerCmd:替代Windows Cmd的利器，类似的还有[cmder](http://cmder.net/)
+- [MobaXterm](https://mobaxterm.mobatek.net/): Windows下的全能终端神器
 - [Xming](https://sourceforge.net/projects/xming/): Windows下的X Window Server，结合putty可以实现linux的图形化软件直接跑在Windows上 
 - RegexBuddy:强大的正则表达式测试工具
-- Soure Insight：源代码阅读神器
+- Source Insight：源代码阅读神器
 - SublimeText：程序员最爱的编辑器
 - Database.NET：一个通用的关系型数据库客户端，基于.NET 4.0开发的，做简单的处理还是蛮方便的
 - Navicat Premium：支持MySql、PostgreSQL、Oracle、Sqlite和SQL Server的客户端，通用性上不如Database.NET，但性能方面比Database.NET好很多，自带备份功能也用于数据库定时备份。
@@ -408,16 +409,12 @@
 - [Material Design](https://material.io/): 谷歌出品，必属精品
 - Vue.js: 借鉴了Angular及React的JS框架，设计理念较为先进
 - [Sciter](https://sciter.com/): GUI框架，采用自己的HTML/CSS解析器，具有出色的扩展特性和性能，dll压缩后在1~2M
-- GRUNT: js task runner
-- Sea.js: js模块化
-- knockout.js：MVVM开发前台，绑定技术
-- Angular.js: 使用超动感HTML & JS开发WEB应用！
-- Highcharts.js, ECharts, Flot: 常用的数据可视化库
-- D3.js: 是一个基于JavaScript数据展示库（类似的还有P5.js）
+- [jsplumb](https://github.com/jsplumb/jsplumb): 流程图可视化库
+- [cytoscape.js](https://github.com/cytoscape/cytoscape.js): 关系图谱可视化库
+- [d3](https://github.com/d3/d3): 非常知名的数据可视化库（类似的还有NVD3，P5.js，Highcharts，Echart，Flot等）
 - [Vega](https://vega.github.io/vega/): 基于D3的可视化语法
-- NVD3: 基于d3.js的图表库
-- Raw：非常不错的一款高级数据可视化工具
-- Rickshaw:时序图标库，可用于构建实时图表
+- [Raw](https://github.com/densitydesign/raw)：非常不错的一款高级数据可视化工具
+- Rickshaw: 时序图表库，可用于构建实时图表
 - JavaScript InfoVis Toolkit：另一款Web数据可视化插件
 - Pdf.js，在html中展现pdf
 - ACE，CodeMirror：Html代码编辑器（ACE甚好啊）
